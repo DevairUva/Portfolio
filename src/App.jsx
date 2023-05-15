@@ -8,11 +8,17 @@ function App() {
 
   return (
     <div>
-      <div></div>
-      <div></div>
-      <h1>Finalmente criando meu Portfolio :)</h1>
-      <div></div>
-      <div></div>
+      <div className='up'>
+        <div className='div1'>red</div>
+        <div className='div2'>blue</div>
+      </div>
+      <div className='quite'>
+        <h1>Finalmente criando meu Portfolio :)</h1>
+      </div>
+      <div className='low'>
+        <div className='div3'>green</div>
+        <div className='div4'>orange</div>
+      </div>
     </div>
   )
 }

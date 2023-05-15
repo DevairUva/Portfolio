@@ -1,0 +1,43 @@
+.up{
+  display: flex;
+}
+
+.low{
+  display: flex;
+}
+
+.quite{
+  width: 30rem;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div1{
+  background-color: red;
+  color: white;
+  width: 30rem;
+  height: 20rem;
+}
+
+.div2{
+  background-color: blue;
+  color: white;
+  width: 30rem;
+  height: 20rem;
+}
+
+.div3{
+  background-color: green;
+  color: white;
+  width: 30rem;
+  height: 20rem;
+}
+
+.div4{
+  background-color: orange;
+  color: black;
+  width: 30rem;
+  height: 20rem;
+}
