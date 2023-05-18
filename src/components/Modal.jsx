@@ -7,7 +7,7 @@ function Modal1() {
   const [show, setShow] = useState(false);
 
   return (
-    <>
+    <div>
       <Button variant="primary" onClick={() => setShow(true)}>
         Custom Width Modal
       </Button>
@@ -47,7 +47,7 @@ function Modal1() {
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
-    </>
+    </div>
   )
 }
 
