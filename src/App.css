@@ -1,43 +1,57 @@
 .up{
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
 }
 
 .low{
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+  margin-top: 40px;
 }
 
 .quite{
-  width: 30rem;
-  height: 20rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -500px;
 }
 
 .div1{
-  background-color: red;
-  color: white;
+  border: 1px solid black;
+  color: black;
   width: 30rem;
   height: 20rem;
 }
 
 .div2{
-  background-color: blue;
-  color: white;
+  border: 1px solid black;
+  color: black;
   width: 30rem;
   height: 20rem;
 }
 
 .div3{
-  background-color: green;
-  color: white;
+  border: 1px solid black;
+  color: black;
   width: 30rem;
   height: 20rem;
 }
 
 .div4{
-  background-color: orange;
+  border: 1px solid black;
   color: black;
   width: 30rem;
   height: 20rem;
+}
+
+.div5{
+  background-color: white;
+  color: black;
+  width: 30rem;
+  height: 20rem;
+  border: 1px solid black;
 }
