@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Modal from './components/Modal'
 import Card1 from './components/Card1'
+import Modal1 from './components/Modal1'
+import Header from './components/Header'
+import Cartao from './components/Cartao'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,8 +11,7 @@ function App() {
   return (
     <div>
       <div>
-        <Modal></Modal>
-        <Card1></Card1>
+        <Cartao/>
       </div>
       <div>
         a
