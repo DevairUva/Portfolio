@@ -1,20 +1,21 @@
-import { useState } from 'react'
-import './App.css'
-import Card1 from './components/Card1'
-import Modal1 from './components/Modal1'
-import Header from './components/Header'
-import Cartao from './components/Cartao'
+import './stiles/coluna1.css'
+import Dados from "./components/Dados"
+import Formacao from './components/Formacao'
+import Links from './components/Links'
+import Mensagem from './components/Mensagem'
+import devair from './assets/devair.jpg'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div>
-      <div>
-        <Cartao/>
+    <div className='mom'>
+      <div className="botoes">
+        <Dados /><br />
+        <Formacao /><br />
+        <Links /><br />
+        <Mensagem />
       </div>
       <div>
-        a
+        <img src={devair} alt="" />
       </div>
     </div>
   )

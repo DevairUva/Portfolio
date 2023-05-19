@@ -1,0 +1,17 @@
+.mom{
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  height: 400px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: column;
+}
+
+.margemB{
+  margin: 40px;
+}
