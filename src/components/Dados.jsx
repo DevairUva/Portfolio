@@ -11,12 +11,12 @@ function Dados() {
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        Dados pessoaisa
+        Dados pessoais
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Dados Pessoaiss</Modal.Title>
+          <Modal.Title>Dados Pessoais</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <h5>Nome: Devair Martins Pereira</h5>
