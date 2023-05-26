@@ -26,7 +26,7 @@ function Dados() {
             <li>Casado</li>
             <li>Parada de Lucas, RJ</li>
           </ul>
-          <h5>Um pouco mais sobre mim :</h5>
+          <h5>Um pouco mais sobre mim:</h5>
           <ul>
             <li>Sou católico e faço parte de um movimento chamado Escola de Evangelização Santo André</li>
             <li>Desde novo sempre gostei muito de tecnologia e video games (God of War em 1°lugar)</li>
