@@ -11,20 +11,29 @@ function Links() {
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        Links Pessoais
+        Meus Links
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Meus Links</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Body>
+          <h5>Profissionais</h5>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/devair-martins-2a6376190/">Linkedin</a></li>
+            <li><a href="https://github.com/DevairUva">GitHub</a></li>
+          </ul>
+          <h5>Pessoais</h5>
+          <ul>
+            <li>Resília e Senac</li>
+          </ul>
+
+
+        </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
+          <Button variant="danger" onClick={handleClose}>
+            Fechar
           </Button>
         </Modal.Footer>
       </Modal>
