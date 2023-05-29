@@ -23,11 +23,13 @@ function Links() {
           <ul>
             <li><a href="https://www.linkedin.com/in/devair-martins-2a6376190/">Linkedin</a></li>
             <li><a href="https://github.com/DevairUva">GitHub</a></li>
+            <li><a href="https://api.whatsapp.com/send/?phone=5521983749187&text&type=phone_number&app_absent=0">Whatsapp</a></li>
           </ul>
           <h5>Pessoais</h5>
           <ul>
             <li>Resília e Senac</li>
           </ul>
+          <button type="submit" onclick="window.location.href=''">Download</button>
 
 
         </Modal.Body>
