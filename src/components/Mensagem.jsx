@@ -41,7 +41,7 @@ function Mensagem() {
 
                 <div class="col-12">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="seu@exe.com" />
+                  <input type="email" class="form-control" id="email" placeholder="seu@exemplo.com" />
                   <div class="invalid-feedback">
                     Please enter a valid email address for shipping updates.
                   </div>
@@ -51,7 +51,7 @@ function Mensagem() {
                   <label for="username" class="form-label">Sua Página <span class="text-muted">(Linkedin | Instagram | GitHub)</span></label>
                   <div class="input-group has-validation">
                     <span class="input-group-text">@</span>
-                    <input type="text" class="form-control" id="username" placeholder="Username" required />
+                    <input type="text" class="form-control" id="username"required />
                     {/* <div class="invalid-feedback">
                       Your username is required.
                     </div> */}
