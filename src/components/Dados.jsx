@@ -11,7 +11,7 @@ function Dados() {
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        Dados pessoais
+        Dados pessoaisa
       </Button>
 
       <Modal show={show} onHide={handleClose}>
