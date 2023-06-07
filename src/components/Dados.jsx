@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import '../stiles/dados.css'
 
 function Dados() {
   const [show, setShow] = useState(false);
@@ -10,9 +11,7 @@ function Dados() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Dados pessoais
-      </Button>
+      <button class="btn btn-1 btn-sep icon-info" onClick={handleShow}>Dados Pessoais</button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
