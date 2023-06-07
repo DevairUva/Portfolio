@@ -18,22 +18,29 @@ function Mensagem() {
     e.preventDefault();
 
     const templateParams = {
-      from_email: email,
       from_nome: nomE,
-      from_mensagem: mensagem,
-      from_pagina: pagina
+      from_email: email,
+      from_pagina: pagina,
+      from_mensagem: mensagem
     }
 
-    if (email != '' || nomE != '' || mensagem != '' || pagina != ''){
-      emailjs.send("service_0s8pl2q", "template_bpik06m", templateParams, "sJ2esEo7IHslJLodL")
-      .then((response)=>{
-        alert(`Obrigado por deixar sua mensagem, irei responder assim que possível!`, response.status, response.text)
-      }, (err) => {
-        alert(`Mensagem não enviada.`, err)
-      })
-    } else {
-      alert('Por favor, verifique os dados.')
-    }
+    emailjs.send("service_0s8pl2q", "template_to4k7tl", templateParams, "sJ2esEo7IHslJLodL")
+    .then((response)=>{
+      alert('Mensagem enviada!', response.status, response.text)
+    },(err) => {
+      alert('Mensagem não enviada', err)
+    })
+
+    // if (email != '' || nomE != '' || mensagem != '' || pagina != ''){
+    //   emailjs.send("service_0s8pl2q", "template_bpik06m", templateParams, "lCcw65DQA4sTgwrmDiExS")
+    //   .then((response)=>{
+    //     alert(`Obrigado por deixar sua mensagem, irei responder assim que possível!`, response.status, response.text)
+    //   }, (err) => {
+    //     alert(`Mensagem não enviada.`, err)
+    //   })
+    // } else {
+    //   alert('Por favor, verifique os dados.')
+    // }
   }
 
   return (
@@ -88,8 +95,8 @@ function Mensagem() {
 
                 <div class="col-12">
                   <label for="address" class="form-label">Mensagem:</label>
-                  <input type="text" onChange={(e)=>setMensagem(e.target.value)}/>
-                  {/* <textarea class="form-control" cols="30" rows="5" onChange={(e)=>setMensagem(e.target.value)}></textarea> */}
+                  {/* <input type="text" onChange={(e)=>setMensagem(e.target.value)}/> */}
+                  <textarea class="form-control" cols="30" rows="5" onChange={(e)=>setMensagem(e.target.value)}></textarea>
                 </div>
               </div>
               <button className='btn btn-primary' type='submit'>Enviar Mensagem</button>
