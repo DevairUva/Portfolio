@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import '../stiles/formacao.css'
 
 function Formacao() {
   const [show, setShow] = useState(false);
@@ -10,9 +11,11 @@ function Formacao() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      {/* <Button variant="primary" onClick={handleShow}>
         Formação Acadêmica
-      </Button>
+      </Button> */}
+
+      <button class="btn btn-2 btn-sep icon-cart" onClick={handleShow}>Formação Acadêmica</button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

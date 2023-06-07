@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import '../stiles/links.css'
 
 function Links() {
   const [show, setShow] = useState(false);
@@ -10,9 +11,11 @@ function Links() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      {/* <Button variant="primary" onClick={handleShow}>
         Meus Links
-      </Button>
+      </Button> */}
+
+      <button class="btn btn-3 btn-sep icon-heart" onClick={handleShow}>Button</button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

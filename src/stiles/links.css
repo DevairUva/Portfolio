@@ -1,4 +1,4 @@
-.btn-1 {
+.btn-3 {
   border: none;
   font-family: 'Lato';
   font-size: inherit;
@@ -21,7 +21,7 @@
   height: 60px;
 }
 
-.btn-1:after {
+.btn-3:after {
   content: '';
   position: absolute;
   z-index: -1;
@@ -31,7 +31,7 @@
 }
 
 /* Pseudo elements for icons */
-.btn-1:before {
+.btn-3:before {
   font-family: 'FontAwesome';
   speak: none;
   font-style: normal;
@@ -56,23 +56,23 @@
   background: rgba(0,0,0,0.15);
 }
 
-/* Button 1 */
-.btn-1 {
-  background: #3498db;
+/* Button 3 */
+.btn-3 {
+  background: #e74c3c;
   color: #fff;
 }
 
-.btn-1:hover {
-  background: #2980b9;
+.btn-3:hover {
+  background: #c0392b;
   color: #fff;
 }
 
-.btn-1:active {
-  background: #2980b9;
+.btn-3:active {
+  background: #c0392b;
   top: 2px;
 }
 
-.btn-1:before {
+.btn-3:before {
   position: absolute;
   height: 100%;
   left: 0;
@@ -98,9 +98,4 @@
 
 .icon-send:before {
   content: "\f1d8";
-}
-
-.modalTitleDados{
-  background-color: #2980b9;
-  color: #fff;
 }

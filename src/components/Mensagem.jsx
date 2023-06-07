@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import emailjs from '@emailjs/browser'
+import '../stiles/mensagem.css'
 
 function Mensagem() {
   const [show, setShow] = useState(false);
@@ -45,9 +46,11 @@ function Mensagem() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      {/* <Button variant="primary" onClick={handleShow}>
         Fale comigo
-      </Button>
+      </Button> */}
+
+      <button class="btn btn-4 btn-sep icon-send" onClick={handleShow}>Button</button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

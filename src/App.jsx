@@ -9,9 +9,9 @@ function App() {
   return (
     <div className='mom'>
       <div className="botoes">
-        <Dados /><br />
-        <Formacao /><br />
-        <Links /><br />
+        <Dados />
+        <Formacao />
+        <Links />
         <Mensagem />
       </div>
       <div>

@@ -14,8 +14,8 @@ function Dados() {
       <button class="btn btn-1 btn-sep icon-info" onClick={handleShow}>Dados Pessoais</button>
 
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Dados Pessoais</Modal.Title>
+        <Modal.Header className='modalTitleDados'>
+          <Modal.Title className='modalTitleDados'>Dados Pessoais</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <h5>Nome: Devair Martins Pereira</h5>
