@@ -53,8 +53,8 @@ function Mensagem() {
       <button class="btn btn-4 btn-sep icon-send" onClick={handleShow}>Button</button>
 
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Fale comigo</Modal.Title>
+        <Modal.Header className='modalTitleMensagem'>
+          <Modal.Title className='modalTitleMensagem'>Fale comigo</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           Quer entrar em contato?<br />

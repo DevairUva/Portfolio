@@ -99,3 +99,8 @@
 .icon-send:before {
   content: "\f1d8";
 }
+
+.modalTitleLinks{
+  background-color: #e74c3c;
+  color: #fff;
+}

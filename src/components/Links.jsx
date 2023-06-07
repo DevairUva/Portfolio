@@ -18,8 +18,8 @@ function Links() {
       <button class="btn btn-3 btn-sep icon-heart" onClick={handleShow}>Button</button>
 
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Meus Links</Modal.Title>
+        <Modal.Header className='modalTitleLinks'>
+          <Modal.Title className='modalTitleLinks'>Meus Links</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <h5>Profissionais</h5>

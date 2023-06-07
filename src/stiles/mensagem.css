@@ -98,3 +98,8 @@
 .icon-send:before {
   content: "\f1d8";
 }
+
+.modalTitleMensagem{
+  background-color: #34495e;
+  color: #fff;
+}

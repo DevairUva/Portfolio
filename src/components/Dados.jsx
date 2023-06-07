@@ -11,14 +11,14 @@ function Dados() {
 
   return (
     <>
-      <button class="btn btn-1 btn-sep icon-info" onClick={handleShow}>Dados Pessoais</button>
+      <button className="btn btn-1 btn-sep icon-info" onClick={handleShow}>Dados Pessoais</button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header className='modalTitleDados'>
           <Modal.Title className='modalTitleDados'>Dados Pessoais</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <h5>Nome: Devair Martins Pereira</h5>
+          <h5>Nome: Devair Martins Pereira</h5><i class="bi bi-person-video"></i>
           <ul>
             <li>Brasileiro</li>
             <li>29 anos</li>
