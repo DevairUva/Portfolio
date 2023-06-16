@@ -100,6 +100,10 @@
   content: "\f1d8";
 }
 
+.topic-games::before {
+  content: '😏';
+}
+
 .modalTitleLinks{
   background-color: #e74c3c;
   color: #fff;
