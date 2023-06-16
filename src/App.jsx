@@ -4,6 +4,8 @@ import Formacao from './components/Formacao'
 import Links from './components/Links'
 import Mensagem from './components/Mensagem'
 import devair from './assets/devair.jpg'
+import { FaBeer } from 'react-icons/fa';
+import { AiFillRedditSquare } from "react-icons/ai";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Formacao />
           <Links />
           <Mensagem />
+          <FaBeer />
+          <AiFillRedditSquare/>
         </div>
         <div>
           <img src={devair} alt="" />
