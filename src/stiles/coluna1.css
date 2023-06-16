@@ -1,4 +1,8 @@
 .mom{
+  text-align: center;
+}
+
+.informations{
   display: flex;
   flex-direction: row;
   width: 900px;

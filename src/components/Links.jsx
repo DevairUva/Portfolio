@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import Net from '../assets/links.png'
 import '../stiles/links.css'
 
 function Links() {
@@ -15,11 +16,14 @@ function Links() {
         Meus Links
       </Button> */}
 
-      <button class="btn btn-3 btn-sep icon-heart" onClick={handleShow}>Button</button>
+      <button class="btn btn-3 btn-sep icon-ball" onClick={handleShow}>Meus Links</button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header className='modalTitleLinks'>
-          <Modal.Title className='modalTitleLinks'>Meus Links</Modal.Title>
+          <Modal.Title className='modalTitleLinks'>
+            Meus Links
+            </Modal.Title>
+            <img src={Net}/>
         </Modal.Header>
         <Modal.Body>
           <h5>Profissionais</h5>

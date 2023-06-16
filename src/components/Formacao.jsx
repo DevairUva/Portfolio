@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import '../stiles/formacao.css'
+import livrosS from '../assets/livros-50.png'
+import livrosB from '../assets/livros-100.png'
 
 function Formacao() {
   const [show, setShow] = useState(false);
@@ -19,7 +21,10 @@ function Formacao() {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header className='modalTitleFormacao'>
-          <Modal.Title className='modalTitleFormacao'>Formação Acadêmica</Modal.Title>
+          <Modal.Title className='modalTitleFormacao'>
+            Formação Acadêmica
+          </Modal.Title>
+          <img src={livrosS}/>
         </Modal.Header>
         <Modal.Body>
           <h5>Bacharelado, Ciência da Computação</h5>
