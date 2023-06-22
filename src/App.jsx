@@ -5,6 +5,7 @@ import Links from './components/Links'
 import Mensagem from './components/Mensagem'
 import devair from './assets/devair.jpg'
 import devair2 from './assets/abc.jpg'
+import devair3 from './assets/logo_DEVair.png'
 import { FaBeer } from 'react-icons/fa';
 import { AiFillRedditSquare } from "react-icons/ai";
 
@@ -23,7 +24,7 @@ function App() {
           <AiFillRedditSquare/>
         </div>
         <div>
-          <img src={devair2} alt="minha foto" className='myImg'/>
+          <img src={devair3} alt="minha foto" className='myImg'/>
         </div>
       </div>
     </div>
