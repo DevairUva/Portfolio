@@ -1,4 +1,5 @@
 import './stiles/coluna1.css'
+import './App.css'
 import Dados from "./components/Dados"
 import Formacao from './components/Formacao'
 import Links from './components/Links'
@@ -12,19 +13,21 @@ import { AiFillRedditSquare } from "react-icons/ai";
 function App() {
   return (
     <div className='mom'>
-      <h2>DEVair Martins</h2>
-      Quem nasceu pra ser <strong>DEV</strong>, já traz a marca no prórpio nome!
+      <div className='titleApp'>
+        <h2>DEVair Martins</h2>
+        Quem nasce pra ser <strong>DEV</strong>, traz a marca no prórpio nome!
+      </div>
       <div className='informations'>
         <div className="botoes">
           <Dados />
           <Formacao />
           <Links />
           <Mensagem />
-          <FaBeer />
-          <AiFillRedditSquare/>
+          {/* <FaBeer />
+          <AiFillRedditSquare/> */}
         </div>
         <div>
-          <img src={devair3} alt="minha foto" className='myImg'/>
+          <img src={devair3} alt="minha foto" className='myImg' />
         </div>
       </div>
     </div>

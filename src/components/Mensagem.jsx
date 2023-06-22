@@ -11,38 +11,89 @@ function Mensagem() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  const [email, setEmail] = useState('');
-  const [nomE, setNome] = useState('');
-  const [mensagem, setMensagem] = useState('')
-  const [pagina, setPagina] = useState('')
+  // const [nome, setNome] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [pagina, setPagina] = useState('');
+  // const [mensagem, setMensagem] = useState('');
+
+  // function enviarEmail(e){
+  //   e.preventDefault();
+
+  //   const templateParams = {
+  //     from_nome: nome,
+  //     from_email: email,
+  //     from_pagina: pagina,
+  //     from_mensagem: mensagem
+  //   }
+
+  //   if(mensagem!= ''){
+  //     emailjs.send("service_0s8pl2q", "template_jqys28q", templateParams, "sJ2esEo7IHslJLodL")
+  //     .then((response)=>{
+  //       alert('Seu email foi enviado com sucesso!', response.status, response.text)
+  //     }, (err)=>{
+  //       alert('Não foi possível enviar seu email.', err)
+  //     })
+  //   } else {
+  //     alert('Preencha todos os campos.')
+  //   }
+  // }
+
+
+
+  // function enviarEmail(e) {
+  //   e.preventDefault();
+
+  //   const templateParams = {
+  //     from_nome: nomE,
+  //     from_email: email,
+  //     from_pagina: pagina,
+  //     from_mensagem: mensagem
+  //   }
+
+  //   emailjs.send("service_0s8pl2q", "template_to4k7tl", templateParams, "sJ2esEo7IHslJLodL")
+  //     .then((response) => {
+  //       alert('Mensagem enviada!', response.status, response.text)
+  //     }, (err) => {
+  //       alert('Mensagem não enviada', err)
+  //     })
+
+  // if (email != '' || nomE != '' || mensagem != '' || pagina != ''){
+  //   emailjs.send("service_0s8pl2q", "template_bpik06m", templateParams, "lCcw65DQA4sTgwrmDiExS")
+  //   .then((response)=>{
+  //     alert(`Obrigado por deixar sua mensagem, irei responder assim que possível!`, response.status, response.text)
+  //   }, (err) => {
+  //     alert(`Mensagem não enviada.`, err)
+  //   })
+  // } else {
+  //   alert('Por favor, verifique os dados.')
+  // }
+  // }
+
+  const [emaiL, setEmail] = useState('')
+  const [nome, setNome] = useState('');
+  const [pagina, setPagina] = useState('');
+  const [mensagem, setMensagem] = useState('');
 
   function enviarEmail(e) {
     e.preventDefault();
 
     const templateParams = {
-      from_nome: nomE,
-      from_email: email,
-      from_pagina: pagina,
-      from_mensagem: mensagem
+      from_email: emaiL,
+      from_name: nome,
+      from_message: mensagem,
+      from_pagina: pagina
     }
 
-    emailjs.send("service_0s8pl2q", "template_to4k7tl", templateParams, "sJ2esEo7IHslJLodL")
-      .then((response) => {
-        alert('Mensagem enviada!', response.status, response.text)
-      }, (err) => {
-        alert('Mensagem não enviada', err)
-      })
-
-    // if (email != '' || nomE != '' || mensagem != '' || pagina != ''){
-    //   emailjs.send("service_0s8pl2q", "template_bpik06m", templateParams, "lCcw65DQA4sTgwrmDiExS")
-    //   .then((response)=>{
-    //     alert(`Obrigado por deixar sua mensagem, irei responder assim que possível!`, response.status, response.text)
-    //   }, (err) => {
-    //     alert(`Mensagem não enviada.`, err)
-    //   })
-    // } else {
-    //   alert('Por favor, verifique os dados.')
-    // }
+    if (emaiL !== '') {
+      emailjs.send("service_m6mx9ze", "template_za43ns2", templateParams, "xNQV6yF19uzXombYa")
+        .then((response) => {
+          alert(`Parabéns! Seu email foi enviado com sucesso.`, response.status, response.text)
+        }, (err) => {
+          alert(`Não foi possível enviar seu email. `, err)
+        })
+    } else {
+      alert(`Preencha os campos corretamente.`)
+    }
   }
 
   return (
