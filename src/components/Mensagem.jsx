@@ -11,64 +11,6 @@ function Mensagem() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  // const [nome, setNome] = useState('');
-  // const [email, setEmail] = useState('');
-  // const [pagina, setPagina] = useState('');
-  // const [mensagem, setMensagem] = useState('');
-
-  // function enviarEmail(e){
-  //   e.preventDefault();
-
-  //   const templateParams = {
-  //     from_nome: nome,
-  //     from_email: email,
-  //     from_pagina: pagina,
-  //     from_mensagem: mensagem
-  //   }
-
-  //   if(mensagem!= ''){
-  //     emailjs.send("service_0s8pl2q", "template_jqys28q", templateParams, "sJ2esEo7IHslJLodL")
-  //     .then((response)=>{
-  //       alert('Seu email foi enviado com sucesso!', response.status, response.text)
-  //     }, (err)=>{
-  //       alert('Não foi possível enviar seu email.', err)
-  //     })
-  //   } else {
-  //     alert('Preencha todos os campos.')
-  //   }
-  // }
-
-
-
-  // function enviarEmail(e) {
-  //   e.preventDefault();
-
-  //   const templateParams = {
-  //     from_nome: nomE,
-  //     from_email: email,
-  //     from_pagina: pagina,
-  //     from_mensagem: mensagem
-  //   }
-
-  //   emailjs.send("service_0s8pl2q", "template_to4k7tl", templateParams, "sJ2esEo7IHslJLodL")
-  //     .then((response) => {
-  //       alert('Mensagem enviada!', response.status, response.text)
-  //     }, (err) => {
-  //       alert('Mensagem não enviada', err)
-  //     })
-
-  // if (email != '' || nomE != '' || mensagem != '' || pagina != ''){
-  //   emailjs.send("service_0s8pl2q", "template_bpik06m", templateParams, "lCcw65DQA4sTgwrmDiExS")
-  //   .then((response)=>{
-  //     alert(`Obrigado por deixar sua mensagem, irei responder assim que possível!`, response.status, response.text)
-  //   }, (err) => {
-  //     alert(`Mensagem não enviada.`, err)
-  //   })
-  // } else {
-  //   alert('Por favor, verifique os dados.')
-  // }
-  // }
-
   const [emaiL, setEmail] = useState('')
   const [nome, setNome] = useState('');
   const [pagina, setPagina] = useState('');
@@ -98,10 +40,6 @@ function Mensagem() {
 
   return (
     <>
-      {/* <Button variant="primary" onClick={handleShow}>
-        Fale comigo
-      </Button> */}
-
       <button class="btn btn-4 btn-sep icon-send" onClick={handleShow}>Fale comigo</button>
 
       <Modal show={show} onHide={handleClose}>
@@ -153,7 +91,6 @@ function Mensagem() {
 
                 <div class="col-12">
                   <label for="address" class="form-label">Mensagem:</label>
-                  {/* <input type="text" onChange={(e)=>setMensagem(e.target.value)}/> */}
                   <textarea class="form-control" cols="30" rows="5" onChange={(e) => setMensagem(e.target.value)}></textarea>
                 </div>
               </div>
