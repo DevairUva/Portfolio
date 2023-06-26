@@ -16,7 +16,7 @@ function Links() {
         Meus Links
       </Button> */}
 
-      <button class="btn btn-3 btn-sep topic-games" onClick={handleShow}>Meus Links</button>
+      <button class="btn btn-3 btn-sep topic-links" onClick={handleShow}>Meus Links</button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header className='modalTitleLinks'>

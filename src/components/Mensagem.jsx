@@ -40,7 +40,7 @@ function Mensagem() {
 
   return (
     <>
-      <button class="btn btn-4 btn-sep icon-send" onClick={handleShow}>Fale comigo</button>
+      <button class="btn btn-4 btn-sep icon-msg" onClick={handleShow}>Fale comigo</button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header className='modalTitleMensagem'>

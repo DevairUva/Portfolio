@@ -82,22 +82,9 @@
   width: 60px;
 }
 
-/* Icons */
-
-.icon-cart:before {
-  content: "\f07a";
-}
-
-.icon-heart:before {
-  content: "\f55a";
-}
-
-.icon-info:before {
-  content: "\f05a";
-}
-
-.icon-send:before {
-  content: "\f1d8";
+/* Icon*/
+.icon-formacao:before {
+  content: "👨🏻‍🎓";
 }
 
 .modalTitleFormacao{

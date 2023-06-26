@@ -17,7 +17,7 @@ function Formacao() {
         Formação Acadêmica
       </Button> */}
 
-      <button class="btn btn-2 btn-sep icon-cart" onClick={handleShow}>Formação Acadêmica</button>
+      <button class="btn btn-2 btn-sep icon-formacao" onClick={handleShow}>Formação Acadêmica</button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header className='modalTitleFormacao'>

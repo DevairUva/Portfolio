@@ -83,25 +83,8 @@
 }
 
 /* Icons */
-
-.icon-cart:before {
-  content: "\f07a";
-}
-
-.icon-heart:before {
-  content: "\f55a";
-}
-
-.icon-info:before {
-  content: "\f05a";
-}
-
-.icon-send:before {
-  content: "\f1d8";
-}
-
-.topic-games::before {
-  content: '😏';
+.topic-links::before {
+  content: '🔗';
 }
 
 .modalTitleLinks{

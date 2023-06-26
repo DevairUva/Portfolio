@@ -12,7 +12,7 @@ function Dados() {
 
   return (
     <>
-      <button className="btn btn-1 btn-sep icon-info" onClick={handleShow}>Dados Pessoais</button>
+      <button className="btn btn-1 btn-sep icon-dados" onClick={handleShow}>Dados Pessoais</button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header className='modalTitleDados titleDados'>
