@@ -26,10 +26,19 @@ function Mensagem() {
       from_pagina: pagina
     }
 
+    function limpar(){
+      document.getElementById('firstName').value = '';
+      document.getElementById('lastName').value = '';
+      document.getElementById('userEmail').value = '';
+      document.getElementById('userPage').value = '';
+      document.getElementById('userMensage').value = '';
+    }
+
     if (emaiL !== '') {
       emailjs.send("service_m6mx9ze", "template_za43ns2", templateParams, "xNQV6yF19uzXombYa")
         .then((response) => {
           alert(`Parabéns! Seu email foi enviado com sucesso.`, response.status, response.text)
+          limpar();
         }, (err) => {
           alert(`Não foi possível enviar seu email. `, err)
         })
@@ -72,7 +81,7 @@ function Mensagem() {
 
                 <div class="col-12">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="seu@exemplo.com" required onChange={(e) => setEmail(e.target.value)} />
+                  <input type="email" class="form-control" id="userEmail" placeholder="seu@exemplo.com" required onChange={(e) => setEmail(e.target.value)} />
                   <div class="invalid-feedback">
                     Please enter a valid email address for shipping updates.
                   </div>
@@ -82,7 +91,7 @@ function Mensagem() {
                   <label for="username" class="form-label">Sua Página <span class="text-muted">(Linkedin | Instagram | GitHub)</span></label>
                   <div class="input-group has-validation">
                     <span class="input-group-text">@</span>
-                    <input type="text" class="form-control" id="username" required onChange={(e) => setPagina(e.target.value)} />
+                    <input type="text" class="form-control" id="userPage" required onChange={(e) => setPagina(e.target.value)} />
                     {/* <div class="invalid-feedback">
                       Your username is required.
                     </div> */}
@@ -91,7 +100,7 @@ function Mensagem() {
 
                 <div class="col-12">
                   <label for="address" class="form-label">Mensagem:</label>
-                  <textarea class="form-control" cols="30" rows="5" required onChange={(e) => setMensagem(e.target.value)}></textarea>
+                  <textarea class="form-control" cols="30" rows="5" id='userMensage' required onChange={(e) => setMensagem(e.target.value)}></textarea>
                 </div>
               </div>
               <button className='btn btn-primary' type='submit'>Enviar Mensagem</button>
