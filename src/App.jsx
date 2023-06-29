@@ -9,6 +9,7 @@ import devair2 from './assets/abc.jpg'
 import devair3 from './assets/logo_DEVair.png'
 import { FaBeer } from 'react-icons/fa';
 import { AiFillRedditSquare } from "react-icons/ai";
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <img src={devair3} alt="minha foto" className='myImg' />
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }
