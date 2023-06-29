@@ -5,4 +5,5 @@ body {
   min-width: 320px;
   min-height: 75vh;
   justify-content: center;
+  font-family: 'Josefin Sans';font-size: 19px;
 }

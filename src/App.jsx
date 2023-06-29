@@ -15,7 +15,7 @@ function App() {
   return (
     <div className='mom'>
       <div className='titleApp'>
-        <h2>DEVair Martins</h2>
+        <h2><strong>DEVair Martins</strong></h2>
         Quem nasce pra ser <strong>DEV</strong>, traz a marca no prórpio nome!
       </div>
       <div className='informations'>
