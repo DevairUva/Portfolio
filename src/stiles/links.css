@@ -82,12 +82,44 @@
   width: 60px;
 }
 
+.modalTitleLinks{
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  margin: 0.8rem;
+}
+
 /* Icons */
 .topic-links::before {
   content: '🔗';
 }
 
-.modalTitleLinks{
-  background-color: #e74c3c;
-  color: #fff;
+.size-links{
+  font-size: 25px;
+}
+
+.linkedin{
+  color: #70b5f9;
+}
+
+.github{
+  color: #000;
+}
+
+.doc{
+  color: #ff8947;
+}
+
+.whatsapp{
+  color: #00e676;
+}
+
+.insta{
+  color: #ca37ac;
 }

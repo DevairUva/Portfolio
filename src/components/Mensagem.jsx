@@ -59,7 +59,7 @@ function Mensagem() {
               <div class="row g-3">
                 <div class="col-sm-6">
                   <label for="firstName" class="form-label">Nome</label>
-                  <input type="text" class="form-control" id="firstName" onChange={(e) => setNome(e.target.value)} />
+                  <input type="text" class="form-control" id="firstName" required onChange={(e) => setNome(e.target.value)} />
                 </div>
 
                 <div class="col-sm-6">
@@ -72,7 +72,7 @@ function Mensagem() {
 
                 <div class="col-12">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="seu@exemplo.com" onChange={(e) => setEmail(e.target.value)} />
+                  <input type="email" class="form-control" id="email" placeholder="seu@exemplo.com" required onChange={(e) => setEmail(e.target.value)} />
                   <div class="invalid-feedback">
                     Please enter a valid email address for shipping updates.
                   </div>
@@ -91,7 +91,7 @@ function Mensagem() {
 
                 <div class="col-12">
                   <label for="address" class="form-label">Mensagem:</label>
-                  <textarea class="form-control" cols="30" rows="5" onChange={(e) => setMensagem(e.target.value)}></textarea>
+                  <textarea class="form-control" cols="30" rows="5" required onChange={(e) => setMensagem(e.target.value)}></textarea>
                 </div>
               </div>
               <button className='btn btn-primary' type='submit'>Enviar Mensagem</button>
@@ -102,7 +102,7 @@ function Mensagem() {
         </Modal.Body>
         <Modal.Footer>
           <Button variant="danger" onClick={handleClose}>
-            Close
+            Fechar
           </Button>
         </Modal.Footer>
       </Modal>
