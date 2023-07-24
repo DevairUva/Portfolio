@@ -19,6 +19,9 @@ function App() {
         Quem nasce pra ser <strong>DEV</strong>, traz a marca no prórpio nome!
       </div>
       <div className='informations'>
+        <div>
+          <img src={devair3} alt="minha foto" className='myImg' />
+        </div>
         <div className="botoes">
           <Dados />
           <Formacao />
@@ -27,11 +30,8 @@ function App() {
           {/* <FaBeer />
           <AiFillRedditSquare/> */}
         </div>
-        <div>
-          <img src={devair3} alt="minha foto" className='myImg' />
-        </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }

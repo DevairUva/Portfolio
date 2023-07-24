@@ -63,5 +63,28 @@
 } */
 
 .titleApp{
-  margin-top: 1rem;
+  margin: auto;
+  width: auto;
+}
+
+h2{
+  width: auto;
+}
+
+@media(max-width: 1000px){
+  .titleApp{
+    width: 800px;
+  }
+}
+
+@media(max-width: 375px){
+  .titleApp{
+    width: 350px;
+  }
+}
+
+@media(max-width: 320px){
+  .titleApp{
+    width: 250px;
+  }
 }
