@@ -63,8 +63,8 @@
 } */
 
 .titleApp {
-  margin: auto;
   margin-top: 15px;
+  margin: auto;
 }
 
 .footerApp {
@@ -80,28 +80,29 @@
 @media(max-width: 375px) {
   .titleApp {
     width: 330px;
+    margin-top: 12px;
   }
 
   .footerApp {
-    width: 250px;
-    margin-top: 180px;
+    width: 300px;
+    margin-top: 150px;
   }
 
   .informations {
     display: flex;
     flex-direction: column;
     margin-top: 170px;
-    width: 375px;
+    width: 300px;
   }
 
   .botoes{
-    width: 350px;
-    margin-top: 10px;
-    margin: auto;
+    width: 360px;
+    margin: 0px;
+    margin-top: 12px;
   }
 
   .myImg{
-    width: 350px;
+    width: 300px;
   }
 
   .mom{
