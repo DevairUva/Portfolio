@@ -65,10 +65,12 @@
 .titleApp {
   margin-top: 15px;
   margin: auto;
+  text-align: center;
 }
 
 .footerApp {
   margin: auto;
+  text-align: center;
 }
 
 @media(max-width: 1000px) {
@@ -96,7 +98,7 @@
   }
 
   .botoes{
-    width: 360px;
+    width: 354px;
     margin: 0px;
     margin-top: 12px;
   }
@@ -106,7 +108,57 @@
   }
 
   .mom{
-    width: 355px;
+    width: 375px;
     text-align: center;
+  }
+
+  body{
+    max-width: 375px;
+  }
+
+  html{
+    max-width: 375px;
+  }
+}
+
+@media(max-width: 414px) {
+  .titleApp {
+    width: 330px;
+    margin-top: 12px;
+  }
+
+  .footerApp {
+    width: 350px;
+    margin-top: 150px;
+  }
+
+  .informations {
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    width: 300px;
+  }
+
+  .botoes{
+    width: 390px;
+    margin: 0px;
+    margin-top: 12px;
+  }
+
+  .myImg{
+    width: 350px;
+  }
+
+  .mom{
+    width: 412px;
+    text-align: center;
+  }
+
+  body{
+    max-width: 412px;
+  }
+
+  html{
+    max-width: 412px;
   }
 }
