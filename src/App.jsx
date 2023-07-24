@@ -19,7 +19,7 @@ function App() {
         Quem nasce pra ser <strong>DEV</strong>, traz a marca no prórpio nome!
       </div>
       <div className='informations'>
-        <div>
+        <div className='minhaFoto'>
           <img src={devair3} alt="minha foto" className='myImg' />
         </div>
         <div className="botoes">
@@ -31,7 +31,9 @@ function App() {
           <AiFillRedditSquare/> */}
         </div>
       </div>
-      <Footer />
+      <div className='footerApp'>
+        <Footer />
+      </div>
     </div>
   )
 }
