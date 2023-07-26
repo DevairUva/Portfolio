@@ -83,48 +83,6 @@
   }
 }
 
-@media(max-width: 375px) {
-  .titleApp {
-    width: 330px;
-    margin-top: 12px;
-  }
-
-  .footerApp {
-    width: 300px;
-    margin-top: 150px;
-  }
-
-  .informations {
-    display: flex;
-    flex-direction: column;
-    margin-top: 170px;
-    width: 300px;
-  }
-
-  .botoes{
-    width: 354px;
-    margin: 0px;
-    margin-top: 12px;
-  }
-
-  .myImg{
-    width: 300px;
-  }
-
-  .mom{
-    width: 375px;
-    text-align: center;
-  }
-
-  body{
-    max-width: 375px;
-  }
-
-  html{
-    max-width: 375px;
-  }
-}
-
 @media(max-width: 414px) {
   .titleApp {
     width: 330px;
@@ -144,7 +102,7 @@
   }
 
   .botoes{
-    width: 390px;
+    width: 414px;
     margin: 0px;
     margin-top: 12px;
   }
@@ -164,5 +122,89 @@
 
   html{
     max-width: 414px;
+  }
+}
+
+@media(max-width: 390px) {
+  .titleApp {
+    width: 320px;
+    margin-top: 12px;
+  }
+
+  .footerApp {
+    width: 310px;
+    margin-top: 150px;
+  }
+
+  .informations {
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    width: 300px;
+  }
+
+  .botoes{
+    width: 390px;
+    margin: 0px;
+    margin-top: 12px;
+  }
+
+  .myImg{
+    width: 310px;
+  }
+
+  .mom{
+    width: 390px;
+    text-align: center;
+  }
+
+  body{
+    max-width: 390px;
+  }
+
+  html{
+    max-width: 390px;
+  }
+}
+
+@media(max-width: 350px) {
+  .titleApp {
+    width: 320px;
+    margin-top: 12px;
+  }
+
+  .footerApp {
+    width: 310px;
+    margin-top: 150px;
+  }
+
+  .informations {
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    width: 300px;
+  }
+
+  .botoes{
+    width: 350px;
+    margin: 0px;
+    margin-top: 12px;
+  }
+
+  .myImg{
+    width: 310px;
+  }
+
+  .mom{
+    width: 350px;
+    text-align: center;
+  }
+
+  body{
+    max-width: 350px;
+  }
+
+  html{
+    max-width: 350px;
   }
 }
