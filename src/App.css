@@ -219,8 +219,8 @@
   }
 }
 
-/* -------------435px */
-@media(max-width: 435px) {
+/* -------------414px */
+@media(max-width: 414px) {
   .titleApp {
     width: 330px;
     margin-top: 12px;
@@ -239,7 +239,7 @@
   }
 
   .botoes{
-    width: 435px;
+    width: 414px;
     margin: 0px;
     margin-top: 12px;
   }
@@ -249,16 +249,16 @@
   }
 
   .mom{
-    width: 435px;
+    width: 414px;
     text-align: center;
   }
 
   body{
-    max-width: 435px;
+    max-width: 414px;
   }
 
   html{
-    max-width: 435px;
+    max-width: 414px;
   }
 }
 
