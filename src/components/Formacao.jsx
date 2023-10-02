@@ -39,6 +39,10 @@ function Formacao() {
           <ul>
             <li>Onebitcode</li>
           </ul>
+          <h5>Fundamentos da Biblioteca de Infraestrutura V3</h5>
+          <ul>
+            <li>Udemy</li>
+          </ul>
           <h5>Inglês Nível 4 – CLAC Cursos de Línguas Abertos à Comunidade</h5>
           <ul>
             <li>UFRJ</li>
