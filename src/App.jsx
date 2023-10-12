@@ -17,7 +17,7 @@ function App() {
       <div className='titleApp'>
         <div className='espaco'></div>
         <h2><strong>DEVair Martins</strong></h2>
-        Quem nasce pra ser <strong>DEV</strong>, traz a marca no prórpio nome!
+        Quem nasce pra ser <strong>DEV</strong>, traz a marca no próprio nome!
       </div>
       <div className='informations'>
         <div className='minhaFoto'>
