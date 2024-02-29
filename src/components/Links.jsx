@@ -30,7 +30,7 @@ function Links() {
           <ul>
             <li className='linkedin'><a className='linkedin' href="https://www.linkedin.com/in/devair-martins-2a6376190/" target='_blank'>Linkedin</a> <i class="fa fa-linkedin-square size-links"></i></li>
             <li className='github'><a className='github' href="https://github.com/DevairUva" target='_blank'>GitHub</a> <i class="fa fa-github size-links"></i></li>
-            <li className='doc'><a className='doc' href="https://drive.google.com/file/d/1t28BSeLgwkn1R7UJjS0Zt46y9D9p6TDJ/view?usp=sharing" target='_blank'>Curriculo</a> <i class="fa fa-file-text size-links"></i></li>
+            <li className='doc'><a className='doc' href="https://drive.google.com/file/d/1D9NlBiFHlcXaZE0rR3gI_D39IcngwCJB/view?usp=sharing" target='_blank'>Curriculo</a> <i class="fa fa-file-text size-links"></i></li>
           </ul>
           <h5>Pessoais</h5>
           <ul>
