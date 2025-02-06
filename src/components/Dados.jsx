@@ -25,7 +25,7 @@ function Dados() {
           <h5>Nome: Devair Martins Pereira</h5>
           <ul>
             <li>Brasileiro</li>
-            <li>30 anos</li>
+            <li>31 anos</li>
             <li>Casado</li>
             <li>Parada de Lucas, RJ</li>
           </ul>
