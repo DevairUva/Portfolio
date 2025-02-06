@@ -32,7 +32,7 @@ function Dados() {
           <h5>Um pouco mais sobre mim:</h5>
           <ul>
             <li>Sou católico e faço parte de um movimento chamado Escola de Evangelização Santo André</li>
-            <li>Desde novo sempre gostei muito de tecnologia e video games (God of War em 1°lugar)</li>
+            <li>Desde novo sempre gostei muito de tecnologia e video games (meu preferidos: God of War e The Last of Us)</li>
             <li>Como um bom carioca, adoro futebol e torço para o Vasco da Gama (Por favor, sem piadas que o site vai cair kkkkkk)</li>
             <li>Minha dignissíma também é uma progamadora: @IsabelaAlves</li>
           </ul>
