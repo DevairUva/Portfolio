@@ -27,11 +27,11 @@ function Dados() {
             <li>Brasileiro</li>
             <li>32 anos</li>
             <li>Casado</li>
-            <li>Parada de Lucas, RJ</li>
+            <li>Rio de Janeiro, RJ</li>
           </ul>
           <h5>Um pouco mais sobre mim:</h5>
           <ul>
-            <li>Sou católico e faço parte da Escola de Evangelização Santo André</li>
+            <li>Sou católico e faço parte da Escola de Evangelização Santo André (EESA)</li>
             <li>Desde criança gosto muito de tecnologia e video games (meu preferido: God of War)</li>
             <li>Como um bom carioca, adoro futebol e torço para o GIGANTESCO Vasco da Gama /+/</li>
             <li>Minha dignissíma também é da área de TI, e hoje trabalha com segurança de redes</li>
