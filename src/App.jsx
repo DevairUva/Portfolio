@@ -16,7 +16,7 @@ function App() {
     <div className='mom'>
       <div className='titleApp'>
         <div className='espaco'></div>
-        <h2><strong>DEVair Martins 123</strong></h2>
+        <h2><strong>DEVair Martins</strong></h2>
         Quem nasce pra ser <strong>DEV</strong>, traz a marca no próprio nome!
       </div>
       <div className='informations'>
