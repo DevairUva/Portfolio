@@ -19,7 +19,6 @@
   }
 }
 
-
 /* -----------912px */
 @media(max-width: 970px) {
   .titleApp {
@@ -211,16 +210,16 @@
   }
 }
 
-/* -----------540px */
+/* -----------550px */
 @media(max-width: 550px) {
   .titleApp {
-    width: 330px;
+    width: 300px;
     margin-top: 12px;
   }
 
   .footerApp {
     width: 350px;
-    margin-top: 150px;
+    margin-top: 200px;
   }
 
   .informations {
@@ -238,6 +237,7 @@
 
   .myImg{
     width: 350px;
+    margin-top: -135px;
   }
 
   .mom{
@@ -254,7 +254,7 @@
   }
 }
 
-/* -------------450px */
+/* -------------500px */
 @media(max-width: 500px) {
   .titleApp {
     width: 330px;
@@ -263,7 +263,7 @@
 
   .footerApp {
     width: 350px;
-    margin-top: 150px;
+    margin-top: 190px;
   }
 
   .informations {
@@ -297,7 +297,7 @@
   }
 }
 
-/* -------------414px */
+/* -------------438px */
 @media(max-width: 438px) {
   .titleApp {
     width: 330px;
@@ -306,7 +306,7 @@
 
   .footerApp {
     width: 350px;
-    margin-top: 150px;
+    margin-top: 190px;
   }
 
   .informations {
