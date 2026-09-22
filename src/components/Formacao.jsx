@@ -31,17 +31,17 @@ function Formacao() {
           <ul>
             <li>Universidade Veiga de Almeida</li>
           </ul>
+          <h5>Formação Pedagógica, Informática</h5>
+          <ul>
+            <li>Centro Universitário Leonardo da Vinci</li>
+          </ul>
           <h5>Programadores Cariocas - Desenvolvedor Full Stack</h5>
           <ul>
             <li>Resília e Senac</li>
           </ul>
-          <h5>Desenvolvedor Full Stack</h5>
+          <h5>Robótica Educacional</h5>
           <ul>
-            <li>Onebitcode</li>
-          </ul>
-          <h5>Fundamentos da Biblioteca de Infraestrutura V3</h5>
-          <ul>
-            <li>Udemy</li>
+            <li>FIRJAN</li>
           </ul>
           <h5>Inglês Nível 4 – CLAC Cursos de Línguas Abertos à Comunidade</h5>
           <ul>

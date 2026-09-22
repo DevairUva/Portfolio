@@ -28,9 +28,9 @@ function Links() {
         <Modal.Body>
           <h5>Profissionais</h5>
           <ul>
-            <li className='linkedin'><a className='linkedin' href="https://www.linkedin.com/in/devair-martins-2a6376190/" target='_blank'>Linkedin</a> <i class="fa fa-linkedin-square size-links"></i></li>
+            <li className='linkedin'><a className='linkedin' href="https://www.linkedin.com/in/devair-martins-pereira-2a6376190/" target='_blank'>Linkedin</a> <i class="fa fa-linkedin-square size-links"></i></li>
             <li className='github'><a className='github' href="https://github.com/DevairUva" target='_blank'>GitHub</a> <i class="fa fa-github size-links"></i></li>
-            <li className='doc'><a className='doc' href="" target='_blank'>Curriculo</a> <i class="fa fa-file-text size-links"></i></li>
+            <li className='doc'><a className='doc' href="https://drive.google.com/file/d/1jIIabomsXNZ1-s0snCcxU2blVcqOQJUl/view?usp=sharing" target='_blank'>Currículo</a> <i class="fa fa-file-text size-links"></i></li>
           </ul>
           <h5>Pessoais</h5>
           <ul>

@@ -22,7 +22,7 @@ function Mensagem() {
     const templateParams = {
       from_email: emaiL,
       from_name: nome,
-      from_message: mensagem,
+      from_mensagem: mensagem,
       from_pagina: pagina
     }
 
@@ -35,7 +35,7 @@ function Mensagem() {
     }
 
     if (emaiL !== '') {
-      emailjs.send("service_m6mx9ze", "template_za43ns2", templateParams, "xNQV6yF19uzXombYa")
+      emailjs.send("service_0s8pl2q", "template_to4k7tl", templateParams, "sJ2esEo7IHslJLodL")
         .then((response) => {
           alert(`Parabéns! Seu email foi enviado com sucesso.`, response.status, response.text)
           limpar();
